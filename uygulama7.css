@@ -1,0 +1,286 @@
+.menu1{
+width:150px;
+height: 200px;
+margin :10px 0 0 0;
+}
+
+.menu1 ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.menu1 ul li a{
+display: block;
+width: 150px;
+height: 30px;
+text-align: center;
+padding: 10px 0;
+background-color: #ffed00;
+color: #163962;
+font: bold 15px tahoma;
+text-decoration: none;
+
+}
+.menu1 ul li a:hover{
+    background-color: #163962;
+    color: #ffed00;
+}
+.menu2{
+    width:600px;
+    height:32px;
+    margin:160px 0 160px 0 ;
+}
+.menu2 ul{
+ 
+  margin: 0;
+  padding: 0; 
+  list-style:none;
+    
+}
+.menu2 ul li{
+    float: left;
+}
+.menu2 ul li a{
+    display: block;
+    width: 120px;
+    height: 24px;
+    
+    padding:8px 0 ;
+    text-align: center;
+    background-color: #ffed00;
+    color: #163962;
+    font:bold 15px times new roman;
+    text-decoration: none;
+}
+.menu2 ul li a:hover{
+
+    background-color: #163962;
+    color: #ffed00;
+}
+
+.menu3{
+    width:500px;
+    height: 32px;
+    margin: 0 0 160px 0;
+}
+
+.menu3 ul{
+margin: 0;
+padding: 0;
+list-style: none;
+
+}
+
+.menu3 ul li{
+    float: left;
+}
+
+
+.menu3 ul li a{
+    display: block;
+    text-decoration: none;
+    
+    padding:8px 8px;
+    background-color: #ffed00;
+    color: #163962;
+    font:bold 15px times new roman;
+    text-align: center;
+}
+
+.menu3 ul li a:hover{
+    background-color: #163962;
+    color: #ffed00;
+}
+
+.menu4{
+width:150px;
+height: 200px;
+margin: 0 0 160px 0;
+
+}
+
+.menu4 ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+.menu4 ul li{
+    position: relative;
+}
+
+.menu4 ul li ul{
+    display: none;
+    position: absolute;
+    top:0;
+    left: 150px;
+}
+
+
+.menu4 ul li a{
+    display: block;
+    width: 150px;
+    height: 24px;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 0 ;
+    background-color: #ffed00;
+    color:#163962;
+    font:bold 15px times new roman;
+    
+    
+
+}
+
+.menu4 ul li a:hover{
+background-color: #163962;
+color:#ffed00;
+
+}
+
+
+
+
+.menu4 ul li:hover ul{
+display:block;
+    
+}
+
+
+.menu5{
+    width: 600px;
+    height: 32px;
+    margin: 0 0 160px 0;
+}
+
+.menu5 ul{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    
+}
+
+
+.menu5 ul li{
+   float: left;
+   position: relative;
+}
+
+.menu5 ul li a{
+    display: block;
+    width:120px;
+    height: 24px;
+    padding:8px 0px;
+    font: bold 15px times new roman;
+    background-color: #ffed00;
+    color: #163962;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu5 ul li ul{
+    display: none;
+    position: absolute;
+    top: 34px;
+    left:0;
+}
+
+.menu5 ul li:hover ul{
+
+    display: block;
+
+}
+
+.menu5 ul li a:hover{
+    background-color: #163962;
+    color: #ffed00;
+}
+
+.menu6{
+    width: 560px;
+    height: 105px;
+
+}
+
+.menu6 ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu6 ul li{
+    float: left;
+}
+
+.menu6 ul li a{
+    display: block;
+    width:80px;
+    height: 105px;
+    
+    background: url(images/anamenu.jpg) no-repeat;
+    text-indent: -2000px;
+}
+
+.menu6 ul li#edit a{
+    background-position: 0 0 ;
+}
+
+.menu6 ul li#gallery a{
+    background-position: -80px 0 ;
+}
+
+.menu6 ul li#help a{
+    background-position: -160px 0 ;
+}
+
+.menu6 ul li#info a{
+    background-position: -240px 0 ;
+}
+
+.menu6 ul li#map a{
+    background-position: -320px 0 ;
+}
+
+.menu6 ul li#location a{
+    background-position: -400px 0 ;
+}
+
+.menu6 ul li#more a{
+    background-position: -480px 0 ;
+}
+
+.menu6 ul li#edit a:hover{
+
+    opacity: 0.7;
+}
+
+.menu6 ul li#gallery a:hover{
+
+    opacity: 0.7;
+}
+
+.menu6 ul li#help a:hover{
+
+    opacity: 0.7;
+}
+
+.menu6 ul li#info a:hover{
+
+    opacity: 0.7;
+}
+
+.menu6 ul li#map a:hover{
+
+    opacity: 0.7;
+}
+
+.menu6 ul li#location a:hover{
+
+    opacity: 0.7;
+}
+
+.menu6 ul li#more a:hover{
+
+    opacity: 0.7;
+}
